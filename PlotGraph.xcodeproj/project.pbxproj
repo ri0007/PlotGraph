@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F7689201C64E50300F64AC9 /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F76891F1C64E50300F64AC9 /* Graph.swift */; };
+		0F7689221C64E5EE00F64AC9 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F7689211C64E5EE00F64AC9 /* MainView.swift */; };
 		0FEC88B51C5E4E9800348F4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEC88B41C5E4E9800348F4F /* AppDelegate.swift */; };
 		0FEC88B71C5E4E9800348F4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FEC88B61C5E4E9800348F4F /* ViewController.swift */; };
 		0FEC88BA1C5E4E9800348F4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FEC88B81C5E4E9800348F4F /* Main.storyboard */; };
@@ -36,6 +38,8 @@
 
 /* Begin PBXFileReference section */
 		0A937B6ED0CB391C204B5AF3 /* Pods_PlotGraph.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PlotGraph.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F76891F1C64E50300F64AC9 /* Graph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		0F7689211C64E5EE00F64AC9 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		0FEC88B11C5E4E9800348F4F /* PlotGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlotGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FEC88B41C5E4E9800348F4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FEC88B61C5E4E9800348F4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +110,8 @@
 			children = (
 				0FEC88B41C5E4E9800348F4F /* AppDelegate.swift */,
 				0FEC88B61C5E4E9800348F4F /* ViewController.swift */,
+				0F7689211C64E5EE00F64AC9 /* MainView.swift */,
+				0F76891F1C64E50300F64AC9 /* Graph.swift */,
 				0FEC88B81C5E4E9800348F4F /* Main.storyboard */,
 				0FEC88BB1C5E4E9800348F4F /* Assets.xcassets */,
 				0FEC88BD1C5E4E9800348F4F /* LaunchScreen.storyboard */,
@@ -334,6 +340,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F7689201C64E50300F64AC9 /* Graph.swift in Sources */,
+				0F7689221C64E5EE00F64AC9 /* MainView.swift in Sources */,
 				0FEC88B71C5E4E9800348F4F /* ViewController.swift in Sources */,
 				0FEC88B51C5E4E9800348F4F /* AppDelegate.swift in Sources */,
 			);
